@@ -1,0 +1,10 @@
+header{ 
+    display: flex;
+    justify-content: center;
+    /* width: 83.4vw; */
+}
+
+header nav ul li a img{
+    width:100%;
+    height: 100%;
+}

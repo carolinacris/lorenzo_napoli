@@ -1,0 +1,32 @@
+
+.card{
+    height: 42vh;
+    width: 18vw;
+}
+.card .png-wrap{
+    height: 100% ;
+    width: 20vw;
+    position: relative;
+}
+
+
+.card .background-card{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 32vh;
+    width: 18vw;
+    position: absolute;
+    bottom: 0;
+
+} 
+
+.card img{
+    z-index: 300;
+    position: absolute;
+    bottom: 0;
+    width: 18vw;
+    
+}
+
+.card p{
+    margin-top: 2vh;
+}

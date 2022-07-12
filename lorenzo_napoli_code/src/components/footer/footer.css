@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: flex-end;
+    /* position: fixed;
+    bottom: 8vh; */
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    width: 53.6%;
+    margin-top: 5vh;
+    
+}

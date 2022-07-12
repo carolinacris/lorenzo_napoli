@@ -1,0 +1,9 @@
+.nav-primary{
+    position: relative;
+    top: 14.1vh;
+
+}
+.nav-primary ul {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "environments",
+  "info": {
+    "singularName": "environment",
+    "pluralName": "environments",
+    "displayName": "environments",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

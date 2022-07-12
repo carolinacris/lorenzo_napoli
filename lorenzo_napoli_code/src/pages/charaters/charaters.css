@@ -1,0 +1,57 @@
+.charaters{
+    /* background-color: aqua; */
+   overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100vw;
+    /* height: 60vh; */
+}
+
+.charaters .wrapper{
+    display: flex;
+    gap: 10vw;
+    position: relative;
+    /* left: 16vw;  */
+    top: 17vh;
+    width: fit-content;
+    padding: 0 16vw;
+    /* position: relative;
+    left: 0; */
+}
+
+
+.charaters h1{
+    position: fixed;
+    top: 30vh;
+}
+
+
+/* per lo slider guarda https://keen-slider.io/ */
+
+
+/* width */
+::-webkit-scrollbar {
+    height: 3px ;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track{
+    background: #858585e0; 
+    margin: 16vw;
+
+  }
+  
+  ::-webkit-scrollbar-track-piece{
+    border: 1px solid #0A0A0A;
+  }
+ 
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8B00BC;
+    height: 3px; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bb01ff; 
+  }
