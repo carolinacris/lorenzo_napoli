@@ -1,0 +1,6 @@
+.img{
+    background: url("src/assets/img/cards/enviroments/env1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 90% !important;
+    margin-top: 10%;
+}
