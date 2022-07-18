@@ -1,0 +1,19 @@
+.chat{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    width: fit-content;
+}
+
+.chat div{
+    width: 56vw;
+    margin-right: 16vw
+}
+.chat div img{
+    width: 24vw;
+}
+
+
+.scomparsa{
+    display: none;
+}

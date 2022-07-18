@@ -18,9 +18,12 @@
 
 }
 body{
-    background: radial-gradient(circle, #262626 0%, #0A0A0A 75%);
+    background: radial-gradient(circle, #262626 0%, #0A0A0A 75%) ;
+
     margin: 11.1vh 8.3vw;
     overflow: hidden;
+   
+    /* position: relative; */
 
 }
 
