@@ -1,5 +1,5 @@
 import { Enviroment } from "../../components/enviroment/enviroment"
-import {hotWheel} from "../../components/hooks/HotWheel"
+import {hotWheel} from "../../components/functions/HotWheel"
 import "./enviroments.css"
 // import { Link } from "react-router-dom"
 

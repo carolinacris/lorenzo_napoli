@@ -1,19 +1,40 @@
 .chat{
-    overflow-y: hidden;
+
     overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100vw;
+    
+}
+.chat .wrapper{
     display: flex;
     width: fit-content;
 }
+.chat .wrapper div{
 
-.chat div{
     width: 56vw;
     margin-right: 16vw
 }
-.chat div img{
+.chat .wrapper .me img{
+    opacity: 0;
+    -webkit-transition: opacity 0.5s 0.5s ease;
+    -moz-transition: opacity 0.5s 0.5s ease;
+    -o-transition: opacity 0.5s 0.5s ease;
+    transition: opacity 0.5s 0.5s ease;
+}
+.chat .wrapper .me img:hover{
+    opacity: 1;
+        -webkit-transition: opacity 0.5s 0s ease;
+    -moz-transition: opacity 0.5s 0s ease;
+    -o-transition: opacity 0.5s 0s ease;
+    transition: opacity 0.5s 0s ease;
+}
+.chat .wrapper div p{
+    width: 100%;
+}
+.chat .wrapper div img{
     width: 24vw;
 }
 
-
-.scomparsa{
+.chat::-webkit-scrollbar{
     display: none;
 }
