@@ -5,8 +5,8 @@ export const Nav = () =>{
     return(
         <nav className="nav-primary gradient-text uppercase" >
             <ul>
-                <li><Link to="/charaters">Charaters</Link></li>
-                <li><Link to="/enviroments">Enviroments</Link></li>
+                <li className='char'><Link to="/charaters">Charaters</Link></li>
+                <li className='env'><Link to="/enviroments">Enviroments</Link></li>
             </ul>
         </nav>
     )

@@ -1,12 +1,14 @@
 import { Enviroment } from "../../components/enviroment/enviroment"
+import { Nav } from "../../components/nav/Nav";
 import "./enviroments.css"
 // import { Link } from "react-router-dom"
 
 export const Enviroments = ()=>{
     return(
+        <>
+        <h1 className="gradient-text uppercase nav-primary t-a-end">enviroments</h1>
         <section className="enviroments">
-            <h1 className="gradient-text uppercase">Enviroments</h1>
-            <div className="wrapper">
+            <div className="wrapper ">
                 <Enviroment></Enviroment>
                 <Enviroment></Enviroment>
                 <Enviroment></Enviroment>
@@ -14,5 +16,6 @@ export const Enviroments = ()=>{
                 <Enviroment></Enviroment>
             </div>
         </section>
+        </>
     )
 }

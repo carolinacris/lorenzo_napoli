@@ -4,7 +4,7 @@ export const Enviroment = ()=>{
         <div className="card">
             <div className="png-wrap img">
             </div>
-                <p className="titolo">Second Law - Cosmo</p>
+                <p className="titolo-enviroment">Second Law - Cosmo</p>
         </div>
     )
 }

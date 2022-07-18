@@ -3,27 +3,30 @@
     overflow-y: hidden;
     overflow-x: scroll;
     width: 100vw;
-    /* height: 60vh; */
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    scroll-behavior: smooth;
 }
 
 .charaters .wrapper{
     display: flex;
-    gap: 10vw;
+    gap: 8vw;
     position: relative;
     /* left: 16vw;  */
     top: 17vh;
     width: fit-content;
-    padding: 0 16vw;
+   margin: 0 24vw
     /* position: relative;
     left: 0; */
+
 }
 
 
-.charaters h1{
-    position: fixed;
-    top: 30vh;
+.t-a-end{
+  width: 100%;
+  text-align: end;
 }
-
 
 /* per lo slider guarda https://keen-slider.io/ */
 
@@ -36,10 +39,11 @@
   /* Track */
   ::-webkit-scrollbar-track{
     background: #858585e0; 
-    margin: 16vw;
+    margin-left: 24vw;
+    margin-right: 8vw;
 
   }
-  
+
   ::-webkit-scrollbar-track-piece{
     border: 1px solid #0A0A0A;
   }

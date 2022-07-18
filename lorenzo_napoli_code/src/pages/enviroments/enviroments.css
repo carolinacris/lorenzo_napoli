@@ -1,5 +1,5 @@
 .enviroments{
-    /* background-color: aqua; */
+
    overflow-y: hidden;
     overflow-x: scroll;
     width: 100vw;
@@ -7,48 +7,53 @@
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-    /* height: 60vh; */
+
+
+   
+        /* filter: FlipH; */
+        /* -ms-filter: "FlipH"; */
+        position: absolute;
+        left: 0;
+        scroll-behavior: smooth;
 }
 
 .enviroments .wrapper{
     display: flex;
-    gap: 10vw;
+    gap: 8vw;
     position: relative;
-    /* left: 16vw;  */
     top: 17vh;
+    
     width: fit-content;
-    padding: 0 16vw;
-    /* position: relative;
-    left: 0; */
+    padding: 0 24vw;
+    
+
 }
 
-
-.enviroments h1{
+/* h1{
     position: fixed;
     top: 30vh;
-    -moz-transform: scaleX(1);
-    -o-transform: scaleX(1);
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
+} */
+.nav-env .char{
+  opacity: 0;
 }
+
 
 
 /* per lo slider guarda https://keen-slider.io/ */
 
 
 /* width */
-::-webkit-scrollbar {
+.enviroments::-webkit-scrollbar {
     height: 3px ;
+    /* width: 100%; */
+    
   }
   
   /* Track */
-  ::-webkit-scrollbar-track{
+  .enviroments::-webkit-scrollbar-track{
     background: #858585e0; 
-    margin: 16vw;
+    margin-left: 24vw;
+    margin-right: 8vw;
 
   }
   

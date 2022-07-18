@@ -4,8 +4,9 @@ import "./charaters.css"
 
 export const Charaters = ()=>{
     return(
+        <>
+        <h1 className="gradient-text uppercase nav-primary">charaters</h1>
         <section className="charaters">
-            <h1 className="gradient-text uppercase">charaters</h1>
             <div className="wrapper">
                 <Charater></Charater>
                 <Charater></Charater>
@@ -14,5 +15,6 @@ export const Charaters = ()=>{
                 <Charater></Charater>
             </div>
         </section>
+        </>
     )
 }

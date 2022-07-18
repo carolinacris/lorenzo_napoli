@@ -4,3 +4,18 @@
     height: 90% !important;
     margin-top: 10%;
 }
+
+.enviroments .wrapper .card p{
+    -moz-transform: scaleX(-1) !important;
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1) !important;
+    transform: scaleX(-1);
+    filter: FlipH !important;
+    -ms-filter: "FlipH";
+    padding: 0;
+    /* margin:0 */
+}
+
+.enviroments .wrapper .card .png-wrap{
+    width: 100%;
+}

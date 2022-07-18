@@ -1,13 +1,21 @@
 footer{
     display: flex;
     justify-content: flex-end;
-    /* position: fixed;
-    bottom: 8vh; */
+    position: relative;
 }
 footer nav{
+
     display: flex;
     justify-content: space-between;
     width: 53.6%;
     margin-top: 5vh;
+    position: fixed;
+    bottom:4vh;
     
+}
+
+.lets-chat{
+    position: fixed;
+    left: 48%;
+    margin:0;
 }
