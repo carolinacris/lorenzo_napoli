@@ -1,11 +1,11 @@
 
 
 
-export const hotWheel = (e)=>{
+export const hotWheel = (event)=>{
  
         // e.preventDefault();
         const container = document.getElementById("scroll");
         console.log('cliccato');
-        container.scrollLeft += e.deltaY *3;
+        container.scrollLeft += event.deltaY *3;
      
 }
