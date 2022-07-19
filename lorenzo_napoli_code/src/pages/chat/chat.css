@@ -1,12 +1,17 @@
 .chat{
-
+    
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100vw;
+    position: absolute;
+    left: 0;
     
 }
 .chat .wrapper{
+    margin: auto 8vw;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: fit-content;
 }
 .chat .wrapper div{
@@ -14,27 +19,69 @@
     width: 56vw;
     margin-right: 16vw
 }
-.chat .wrapper .me img{
+.chat .wrapper div img{
+    width: 24vw;
+    top:8vh;
+    position:relative; 
+}
+.chat .wrapper div p{  
+    position: relative;
+    top: 45vh;
+    width: 100%;
+}
+
+
+.chat .wrapper div:nth-child(odd) img{
     opacity: 0;
     -webkit-transition: opacity 0.5s 0.5s ease;
     -moz-transition: opacity 0.5s 0.5s ease;
     -o-transition: opacity 0.5s 0.5s ease;
     transition: opacity 0.5s 0.5s ease;
+  
+    left: 30vw;
+ 
 }
-.chat .wrapper .me img:hover{
+.chat .wrapper div:nth-child(odd) img:hover{
     opacity: 1;
-        -webkit-transition: opacity 0.5s 0s ease;
+    -webkit-transition: opacity 0.5s 0s ease;
     -moz-transition: opacity 0.5s 0s ease;
     -o-transition: opacity 0.5s 0s ease;
     transition: opacity 0.5s 0s ease;
 }
-.chat .wrapper div p{
-    width: 100%;
+
+.chat .wrapper div:nth-child(even) p{
+    width: 32vw;
 }
-.chat .wrapper div img{
-    width: 24vw;
+
+.chat .wrapper div:nth-child(even) img{
+    position:relative;
+    left: 32vw;
 }
+.chat .wrapper .text-box{
+    width: 72vw;
+    align-self: flex-start;
+    position: relative;
+    top:8vh;
+    left: 4vw;
+}
+
+.chat .wrapper .text-box h1{
+    position: relative;
+    top:8vh;
+
+}
+.chat .wrapper .text-box h1 span{
+    font-size: 30px;
+    line-height: 63px;
+    letter-spacing: 60px;
+    
+}
+.chat .wrapper .text-box h1 span:nth-child(1){
+    margin-left: 24vw;
+}
+
 
 .chat::-webkit-scrollbar{
     display: none;
 }
+

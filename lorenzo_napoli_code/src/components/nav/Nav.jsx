@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import "./nav.css"
 
 export const Nav = () =>{
+   
+   
     return(
         <nav className="nav-primary gradient-text uppercase" >
             <ul>

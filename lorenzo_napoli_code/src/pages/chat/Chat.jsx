@@ -1,14 +1,14 @@
 import Mail from "../../components/mail/Mail"
 import { Social } from "../../components/social/Social"
 import { hotWheel } from "../../components/functions/HotWheel"
+
 // import { useHorizontalScroll } from "../../components/hooks/useHorizontalScroll"
 import "./chat.css"
 
 
 export const Chat = () =>{
 
-
-     
+   
 
     return(
         <section className="chat" onWheel={hotWheel}  id="scroll" >
@@ -23,7 +23,7 @@ export const Chat = () =>{
                     <img src="src/assets/img/lollo/lollo2.jpg" alt="" />
                 </div>
                 <div className="text-box">
-                    <h1 className="uppercase"><span>about our</span><span>next project</span></h1>
+                    <h1 className="uppercase"><span>about our</span> <hr /> <span>next project</span> </h1>
                 </div>
                 <div>
                 <h1>faccio la form</h1>
