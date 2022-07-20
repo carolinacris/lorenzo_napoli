@@ -4,12 +4,12 @@ import "./header.css"
 export const Header = () => {
 
             return(
-                <header>
-            <nav>
+                <header className='mamma'>
+                 <nav>
                 <ul>
                     <li><Link to="/"><img src="src/assets/img/logo_lorenzo_napoli.png" alt="" /></Link></li>
                 </ul>
-            </nav>
+                </nav>
             </header>
         )
 
