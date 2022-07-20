@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
+import { Single } from "../../pages/single/Single";
 import './footer.css'
 
 export const Footer = () =>{
+
     return(
         <footer className="footer">
             <nav>

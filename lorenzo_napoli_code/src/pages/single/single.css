@@ -1,0 +1,52 @@
+.single{
+    position: absolute;
+    top: 0;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth ;
+}
+.single .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    gap:8vh;
+    top: 26vh;
+    z-index: 0;
+    max-width: 40vw;
+    
+
+}
+.single .text-box .in-box{
+    max-height: 15vh;
+    overflow-y: scroll;
+}
+
+.single .wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top:60vh;
+    padding-bottom: 20vh;
+}
+
+.single .wrapper img{
+    width: 64vw;
+    height: auto;
+}
+.single .back{
+    position: fixed;
+    bottom: 5vh;
+    left: 8.3vw;
+    font-size: 18px !important;
+    color: #a1a2aae0 !important;
+}
+.single::-webkit-scrollbar, .in-box::-webkit-scrollbar{
+    display: none;
+}
