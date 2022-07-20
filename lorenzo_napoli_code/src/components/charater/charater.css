@@ -7,6 +7,7 @@
     height: 100% ;
     width: 20vw;
     position: relative;
+    margin-bottom: 2vh;
 }
 
 
@@ -24,9 +25,7 @@
     position: absolute;
     bottom: 0;
     width: 18vw;
+
     
 }
 
-.card p{
-    margin-top: 2vh;
-}

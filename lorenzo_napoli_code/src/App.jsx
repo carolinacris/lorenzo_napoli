@@ -5,6 +5,7 @@ import {Charaters} from "./pages/charaters/Charaters"
 import {Chat} from "./pages/chat/Chat"
 import { Footer } from "./components/footer/Footer";
 import { Enviroments } from "./pages/enviroments/enviroments";
+import { Single } from "./pages/single/Single";
 
 
 
@@ -18,6 +19,7 @@ export const App = () => {
                 <Route path="/charaters" element={<Charaters/>} />
                 <Route path="/chat" element={<Chat/>} />
                 <Route path="/enviroments" element={<Enviroments/>} />
+                <Route path="/single" element={<Single/>} />
             </Routes>
             <Footer></Footer>
           

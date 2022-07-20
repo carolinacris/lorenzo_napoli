@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./charater.css"
 export const Charater = ()=>{
     return(
@@ -6,7 +7,7 @@ export const Charater = ()=>{
                 <div className="background-card"></div>
                 <img src="src/assets/img/cards/charaters/4.png" alt="" />
             </div>
-                <p className="titolo">Neomorph</p>
+                <Link to="/single" className="titolo">Neomorph</Link>
         </div>
     )
 }

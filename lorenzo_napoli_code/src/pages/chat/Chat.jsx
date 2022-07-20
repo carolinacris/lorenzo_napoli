@@ -1,7 +1,6 @@
 import Mail from "../../components/mail/Mail"
 import { Social } from "../../components/social/Social"
 import { hotWheel } from "../../components/functions/HotWheel"
-import { Form } from "../../components/form/Form"
 // import { useHorizontalScroll } from "../../components/hooks/useHorizontalScroll"
 import "./chat.css"
 
